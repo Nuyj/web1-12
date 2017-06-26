@@ -9,7 +9,7 @@ for(var i =1; i < 101; i++){
         var f = "";
         if (i % 3 === 0) { f += "Fizz"; }
         if (i % 5 === 0) { f += "Buzz"; }
-        if (s === "")    { f += i; }
+        if (f === "")    { f += i; }
       
     
  
