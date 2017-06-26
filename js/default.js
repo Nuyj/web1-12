@@ -10,9 +10,10 @@ for(var i =1; i < 101; i++){
         if (i % 3 === 0) { f += "Fizz"; }
         if (i % 5 === 0) { f += "Buzz"; }
       var li = document.createElement('li');
+    }
   li.textContent = i;
   document.getElementById('list').appendChild(li);
-  }
+  
      
     
  
